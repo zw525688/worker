@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../icomoon/fonts');
+    src: url('../icomoon/fonts/icomoon.eot') format('embedded-opentype'),
+        url('../icomoon/fonts/icomoon.ttf') format('truetype'),
+        url('../icomoon/fonts/icomoon.woff') format('woff'),
+        url('../icomoon/fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.shortcut {
+    width: 1920px;
+    height: 31px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+.win {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.win .shortcut-left {
+    float: left;
+}
+
+.win li {
+    float: left;
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+.shortcut-left li:nth-child(3) {
+    color: #c81623;
+}
+
+.win .shortcut-right {
+    float: right;
+}
+
+.shortcut-right li {
+    float: left;
+}
+
+.shortcut-right li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666666;
+    margin-top: 9px;
+}
+
+.arrow-icon::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+/* 头部样式 */
+.header {
+    position: relative;
+    width: 1200px;
+    height: 106px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    position: absolute;
+    top: 27px;
+    left: 0;
+}
+
+.header .search {
+    position: absolute;
+    top: 27px;
+    left: 349px;
+    width: 538px;
+    height: 38px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #c81623;
+}
+
+.header input {
+    float: left;
+    width: 454px;
+    height: 38px;
+    outline: none;
+    border-style: none;
+    box-sizing: border-box;
+    padding-left: 10px;
+    line-height: 38px;
+}
+
+.header button {
+    float: left;
+    width: 84px;
+    height: 38px;
+    background-color: #c81623;
+    border-style: none;
+    color: #fff;
+    border-radius: 0;
+}
+
+.hostword {
+    position: absolute;
+    top: 70px;
+    left: 350px;
+}
+
+.hostword li {
+    float: left;
+    margin-left: 10px;
+
+}
+
+.hostword a {
+    text-decoration: none;
+}
+
+.red a {
+    color: #c81623;
+}
+
+.shopcar {
+    position: absolute;
+    top: 27px;
+    right: 65px;
+    width: 142px;
+    height: 33px;
+    border-color: #dfdfdf;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #f7f7f7;
+    line-height: 33px;
+    text-align: center;
+}
+
+.shopcar p::before {
+    content: '\e93a';
+    font-family: 'icomoon';
+    color: #c81623;
+}
+
+.shopcar p::after {
+    content: '\e920';
+    font-family: 'icomoon';
+}
+
+.count {
+    position: absolute;
+    top: -10px;
+    right: 35px;
+    width: 20px;
+    height: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #c81623;
+    line-height: 20px;
+    color: #fff;
+
+}
